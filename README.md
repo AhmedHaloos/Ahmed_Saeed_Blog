@@ -23,3 +23,6 @@ this project is consisting of these main components:
 2 - **Components** : which containt all the components that are used to build any Page, such as Header, UserCard, PostCard and so on.
 3 - **Resources** : which contain all the resources being used by the pages, such as images.
 4 - **Api** : this is the folder that contain all the application backend files, which is responsible for api calls.  
+
+## Structure
+The basic structure of the project is the **App** component that contains : 1 - the **router** component for routing pages, 2 - the **Mainpage** that contain the **UserPage** and the **PostPage**
