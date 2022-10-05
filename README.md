@@ -11,11 +11,11 @@ it also has navbar for navigation to all users all posts and home page.
 
 ## Technologies:
 in this application i used the following technologies:
-1 - React Js: for the whole application.
-2 - React Router library: for navigation and routing.
-3 - React Query library: for handling requesting data from backend.
-4 - axios:  for requesting data from https://jsonplaceholder.typicode.com/ api
-5 - html amd css
+1 - **React Js**: for the whole application.
+2 - **React Router** library: for navigation and routing.
+3 - **React Query** library: for handling requesting data from backend.
+4 - **Axios**:  for requesting data from https://jsonplaceholder.typicode.com/ api
+5 - **html amd css**
 
 ## Components:
 this project is consisting of these main components:
