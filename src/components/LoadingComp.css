@@ -1,0 +1,35 @@
+.loader-container{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-cirlce{
+
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: rgb(104, 104, 250);
+    position:relative;
+    left: 5rem;
+    top :8rem;
+    /* border: 1px solid black; */
+
+}
+.inner-circle{
+
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+   
+    /* border: 1px solid black; */
+
+}

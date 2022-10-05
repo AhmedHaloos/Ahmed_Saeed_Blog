@@ -1,0 +1,25 @@
+.notfound-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-404 {
+    width: 20rem;
+    height: 15rem;
+    font-size: 10rem;
+    background-image: linear-gradient(to right, #081d46, #123870);
+    align-self: center;
+    color: white;
+    border-radius: 3.6rem;
+    text-align: center;
+}
+.error-message{
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}

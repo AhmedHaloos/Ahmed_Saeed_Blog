@@ -1,0 +1,8 @@
+
+.posts-page-container{
+    background-color: #fcf7ff;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 11vh;  
+}
