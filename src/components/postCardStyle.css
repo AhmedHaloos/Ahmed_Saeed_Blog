@@ -1,14 +1,14 @@
 .post-container{
 
-    width: 30rem;
+    width: 60%;
     height: max-content;
-    border-radius: 1.2rem;
+    border-radius: 0.8rem;
     background-image: linear-gradient(290deg, #02e49c, #007e4f); 
      /****/
-     margin-top: 2rem;
-     margin-left: 10rem;
-     /****/
-     
+     margin-top: 0.1rem;
+     margin-left: 1rem;
+     /****/ 
+     border : 1px solid rgb(180, 180, 180)
     
 }
 
@@ -19,7 +19,7 @@
     background-color: transparent;
     border: none;
     border-radius: 1.2rem;
-    color: white;
+    color: #f6ebff;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
@@ -29,14 +29,37 @@
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 .post-titel-btn p{
     margin-bottom: 00.5rem;
 }
+
 .show-more-icon::after{
     content: "Show More ";
     color: white;
+}
+
+.post-expand{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.post-expand p{
+
+    color: rgb(231, 231, 231);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 1.2rem;
+    margin-bottom: 0px;
+    align-self: center;
+}
+.post-expand:nth-child(){
+    align-self: center;
 }
 
 .post-details{
@@ -59,11 +82,6 @@
     margin-top: 1.3rem;
 }
 
-
-/* .post-titel-btn:hover ~ .post-details{
-    transform: scale(1.5);
-} */
-
 .display-post {
     height:10rem;
 }
@@ -71,5 +89,4 @@
 .hide-post {
     height: 0px;   
 }
-/*******************************************************************/
 

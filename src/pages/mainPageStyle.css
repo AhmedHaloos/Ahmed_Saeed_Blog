@@ -1,8 +1,9 @@
 
 
-.main-page-container{
-    width: 100vw;
-    height: 100vh;
-    background-color: #fcf7ff;
+.main-page-container{ 
+    background-image: url('./../resources/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     overflow: scroll;
 }

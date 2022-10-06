@@ -1,8 +1,11 @@
 
 .posts-page-container{
-    background-color: #fcf7ff;
+    /* background-color: transparent; */
+    background-image: url('./../resources/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: grid;
     grid-template-columns: auto;
-    justify-content: center;
     margin-top: 11vh;  
 }

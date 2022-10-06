@@ -68,7 +68,7 @@
     padding-right: 1rem;
     margin-bottom: 0.3rem;
     align-self: center;
-    color: #f6ebff;
+    color: #231f2b;
 }
 
 .companyName{
@@ -94,9 +94,7 @@
     font-size: larger;
     font-weight: bold;
 }
-/* .postsBtn:hover{
-    background-color: #f6ebff;
-} */
+
 .postsBtn:active{
     box-shadow: 0px 0px;
    
