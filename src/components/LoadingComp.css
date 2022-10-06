@@ -2,12 +2,15 @@
 .loader-container {
 
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
+    padding-top: 10rem;
+    box-sizing: border-box;
+    background-image: url('./../resources/images/background.jpg');
+
 }
 
 .outer-cirlce {

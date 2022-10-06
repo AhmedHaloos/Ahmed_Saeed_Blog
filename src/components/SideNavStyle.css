@@ -7,12 +7,12 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .side-list-container {
     height: 100%;
-
+    box-sizing: border-box;    
 }
 
 .side-list-container ul {
@@ -24,16 +24,13 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
+    box-sizing: border-box;
 }
 
 .active {
     color: reds;
 }
 
-#side-close-icon:hover {
-    color: white;
-}
 
 
 .side-list-item {
@@ -43,11 +40,11 @@
 }
 
 
-.side-list-item button:hover {
+#side-link-btn:hover{
     color: #ffffff;
 }
 
-.side-list-item button {
+#side-link-btn{
     width: 100%;
     height: 100%;
     background-color: transparent;
@@ -82,4 +79,11 @@
     font-size: 2rem;
     cursor: pointer;
     margin-right: 1.5rem;
+}
+#side-close-icon:hover {
+    color: white;
+}
+.side-list-item button:hover{
+
+    color: white;
 }

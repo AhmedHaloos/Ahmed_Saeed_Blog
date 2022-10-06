@@ -16,7 +16,7 @@ const SideNavBar = (props) => {
                         onClick={() => { props.handleCloseSideNav() }}
                     /></li>
                     <li className='side-list-item'>
-                        <button className='side-link-btn '
+                        <button id='side-link-btn'
                             style={{ color: props.currenPage.index == 0 ? "white" : "gray" }}
                             onClick={() => {
                                 props.handleCloseSideNav();
@@ -25,7 +25,7 @@ const SideNavBar = (props) => {
                         >Home</button>
                     </li>
                     <li className='side-list-item'>
-                        <button className='side-link-btn'
+                        <button id='side-link-btn'
                             style={{ color: props.currenPage.index == 1 ? "white" : "gray" }}
                             onClick={() => {
                                 props.handleCloseSideNav();
@@ -34,7 +34,7 @@ const SideNavBar = (props) => {
                         >Users</button>
                     </li>
                     <li className='side-list-item'>
-                        <button className='side-link-btn '
+                        <button id='side-link-btn'
                             style={{ color: props.currenPage.index == 2 ? "white" : "gray" }}
                             onClick={() => {
                                 props.handleCloseSideNav();

@@ -1,13 +1,13 @@
 .header-container {
 
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     position: fixed;
     top: 0px;
     left: 0px;
     background-image: radial-gradient(#6a9eda, #3442ff);
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     z-index: 3;
 }
 
@@ -22,7 +22,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-   
+
 }
 
 .list-item {
@@ -39,7 +39,7 @@
     display: block;
     color: #f6ebff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.8rem 1rem;
     text-decoration: none;
     font-size: 1.2rem;
     text-align: center;
@@ -47,36 +47,36 @@
 }
 
 .header-icon {
-    width: 1.3rem;
-    height: 100%; 
+    width: 4rem;
+    height: 100%;
     color: #f6ebff;
     align-self: center;
     font-size: 1.4rem;
     cursor: pointer;
-    transition:  0.7s ease;
-    margin-left: 65%;
+    transition: 0.7s ease;
+    margin-left: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header-icon:hover{
+
+.header-icon:hover {
 
     rotate: 180deg;
 
 }
 
-.divider{
+.divider {
     width: 1px;
     height: 80%;
-   align-self: center;
-   margin-left: 1.2rem;
+    align-self: center;
     background-color: #f6ebff;
 }
 
-.header-page-title{
+.header-page-title {
     color: #ffffff;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     align-self: center;
     font-size: 1.4rem;
     font-weight: bold;
@@ -85,33 +85,38 @@
 }
 
 @media screen and (max-width : 1200px) {
-  .header-icon{
-    margin-left: 45%;
-  }
+    .header-icon {
+        margin-left: 45%;
+    }
 }
+
 @media screen and (max-width : 760px) {
-  .header-icon{
-    margin-left: 25%;
-  }
+    .header-icon {
+        margin-left: 25%;
+    }
 }
 
 @media screen and (max-width:600px) {
-    
-    .list-container{
+
+    .list-container {
         display: none;
     }
-    .header-icon{
+
+    .header-icon {
         align-self: center;
     }
-    .divider{
+
+    .divider {
         display: none;
     }
 }
+
 @media screen and (max-width : 250px) {
-  .header-page-title{
-    display: none;
-  }
+    .header-page-title {
+        display: none;
+    }
 }
-.active{
+
+.active {
     color: black;
 }

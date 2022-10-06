@@ -7,6 +7,35 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
     padding-bottom: 0.3rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    
 }
+/* @media screen and (max-width:1000px) {
+    .main-page-container{
+        width: 80%;
+    }
+}
+@media screen and (max-width:750px) {
+    .main-page-container{
+        width: 60%;
+    }
+}
+@media screen and (max-width:750px) {
+    .main-page-container{
+        width: 60%;
+    }
+}
+@media screen and (max-width:750px) {
+    .main-page-container{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .main-page-container{
+        width: 30%;
+    }
+
+} */
