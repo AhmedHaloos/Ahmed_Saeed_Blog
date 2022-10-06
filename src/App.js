@@ -35,7 +35,7 @@ function App() {
       <Header isSideNavDisp = {isSideNavDisp} setNavDisp={handleDispSideNav} currenPage = {currenPage}/>
       <SideNavBar isSideNavDisp={isSideNavDisp} handleCloseSideNav={handleCloseSideNav} currenPage = {currenPage}/>
     <Routes>
-      <Route path={'/users/:userId/posts'} element={ <PostsPage/>}/>
+      <Route path={'/users/:userId/posts'} element={ <PostsPage setCurrentPage = {setCurrentPage} currenPage = {currenPage}/>}/>
       <Route path={'/users'} element={<UsersPage setCurrentPage = {setCurrentPage} currenPage = {currenPage}/>}/>
       <Route path={'/posts'} element={<PostsPage setCurrentPage = {setCurrentPage} currenPage = {currenPage}/>}/>
       <Route path={'/loading'} element={<LoadingComp/>}/>

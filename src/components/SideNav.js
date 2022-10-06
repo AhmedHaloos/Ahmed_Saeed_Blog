@@ -12,7 +12,7 @@ const SideNavBar = (props) => {
         <div className={"sidenav-container " + (props.isSideNavDisp ? "disp-nav" : "hide-nav")}>
             <div className='side-list-container'>
                 <ul>
-                    <li className='side-list-item-close '><FontAwesomeIcon icon={faClose} id='side-close-icon'
+                    <li className='side-list-item-close'><FontAwesomeIcon icon={faClose} id='side-close-icon'
                         onClick={() => { props.handleCloseSideNav() }}
                     /></li>
                     <li className='side-list-item'>
