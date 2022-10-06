@@ -12,6 +12,7 @@
     justify-content: center;
     column-gap: 3.2rem;
     row-gap: 2.3rem;
+    overflow: scroll;
 }
 
 @media screen and(min-width:790px) {
