@@ -13,6 +13,7 @@ import Header from "./components/Header";
 import LoadingComp from "./components/LoadingComponent";
 import NotFoundPage from "./pages/NotFoundPage";
 import SideNavBar from "./components/SideNav";
+import "./App.css"
 
 const queryClient  = new QueryClient();
 function App() {
