@@ -19,7 +19,7 @@ function Header(props) {
 
                 </ul>
             </div>
-            {/* <div className='divider'></div> */}
+            <div className='divider'></div>
             <div className='header-page-title'><p>{props.currenPage.title}</p></div>
             <div className='page-title'></div>
             <div className='header-icon'
