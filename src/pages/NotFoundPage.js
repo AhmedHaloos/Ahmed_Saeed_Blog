@@ -6,7 +6,6 @@ import './NotFoundPageStyle.css'
 function NotFoundPage(props) {
 
     useEffect(()=>{
-        // console.log(props.setCurrentPage);
          if(props.setCurrentPage != undefined){
 
              props.setCurrentPage({title : "Not Found Page", index : 3});

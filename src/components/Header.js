@@ -7,8 +7,6 @@ import './headerStyle.css'
 
 function Header(props) {
 
-    // console.log(props.currenPage.title);
-
     return (
         <div className="header-container">
             <div className='list-container'>

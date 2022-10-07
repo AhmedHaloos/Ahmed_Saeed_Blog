@@ -11,7 +11,6 @@ export default function UsersPage(props) {
     const userQuery = useQuery('get-all-users', getAllUsers)
 
     useEffect(()=>{
-        // console.log(props.setCurrentPage);
          if(props.setCurrentPage != undefined){
 
              props.setCurrentPage({title : "Users Page", index : 1});
