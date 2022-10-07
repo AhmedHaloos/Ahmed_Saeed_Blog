@@ -21,11 +21,10 @@ function Header(props) {
             <div className='header-page-title'><p>{props.currenPage.title}</p></div>
          
             <div className='header-icon'
-            > <FontAwesomeIcon icon={faNavicon} 
-            onClick={() => {
+             onClick={() => {
                 props.setNavDisp(!props.isSideNavDisp);}
             }
-            />
+            > <FontAwesomeIcon icon={faNavicon}/>
             
             </div>
         </div>
