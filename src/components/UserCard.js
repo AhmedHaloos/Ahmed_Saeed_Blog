@@ -15,7 +15,7 @@ const UserCard = (props) => {
 
     return (
 
-        <div className='container'  >
+        <div className='card-container'  >
             <img src={profile} className='avatar' alt="Profile image" />
             <p className='name'>{props.user.name}</p>
             <p className='username'>{props.user.username}</p>

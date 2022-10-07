@@ -15,11 +15,8 @@
     overflow: scroll;
 }
 
-@media screen and(min-width:790px) {
-
-    .user-container {
-        grid-template-columns: auto auto auto;
-
-
-    }
+@media screen and (max-width:500px) {
+    .user-container{
+      justify-content: flex-start;
+    }  
 }
