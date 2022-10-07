@@ -8,14 +8,13 @@
      margin-top: 0.1rem;
      margin-left: 1rem;
      /****/ 
-     border : 1px solid rgb(180, 180, 180)
-    
+     border : 1px solid rgb(180, 180, 180);
 }
 
 .post-titel-btn{
 
     width: 100%;
-    height: 5rem;
+    height: max-content;
     background-color: transparent;
     border: none;
     border-radius: 1.2rem;
@@ -31,6 +30,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+
 }
 .post-titel-btn p{
     margin-bottom: 00.5rem;
@@ -75,6 +76,7 @@
     background-color: #007e4f;
     border-bottom-left-radius: 1.2rem;
     border-bottom-right-radius: 1.2rem;
+    box-sizing: border-box;
 }
 .post-details p{
     padding-left: 0.6rem;
