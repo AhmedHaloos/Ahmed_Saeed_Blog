@@ -104,6 +104,7 @@
 @media screen and (max-width:900px) {
     .card-container{
         width: 12rem;
+        height: 28rem;
     }  
 }
 
