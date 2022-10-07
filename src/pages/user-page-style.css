@@ -16,7 +16,8 @@
     overflow: scroll;
 }
 
-@media screen and (max-width:500px) {
+
+@media screen and (max-width:700px) {
     .user-container{
       justify-content: flex-start;
     }  
